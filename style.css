@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    font-family: sans-serif, serif;
+    line-height: 1.6em;
+    /*    box-sizing: border-box;*/
+}
+
+.container {
+    margin: auto;
+    max-width: 1140px;
+
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+#navbar {
+    background-color: #000;
+    color: #fff;
+    overflow: auto;
+}
+
+h1 {
+    padding-bottom: 20px;
+}
+
+#navbar a {
+    color: #fff;
+}
+
+#navbar h1 {
+    float: left;
+    padding: 20px 30px;
+}
+
+#navbar ul {
+    list-style: none;
+    float: right;
+}
+
+#navbar li {
+    float: left;
+}
+
+#navbar li a {
+    display: block;
+    padding: 20px;
+}
+
+#navbar li a:hover,
+#navbar li a.current {
+    background: #444;
+    color: aqua;
+}
+
+.info {
+    background-image: url(showcase.jpg);
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    line-height: 20px;
+    padding-top: 10%;
+}
+
+.orange {
+    color: orange;
+}
+
+.bgcontent {
+    height: 350px;
+    overflow: none;
+    box-sizing: border-box;
+}
+
+
+.bgcontent .image_content {
+    background-image: url(berlin.jpg);
+    background-size: cover;
+    background-position: center;
+    float: left;
+    width: 50%;
+    height: 100%;
+}
+
+
+
+.bgcontent .text_content {
+    color: white;
+    background-color: #000;
+    float: right;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    /*    padding: 40px;*/
+    overflow: hidden;
+    margin: auto;
+
+}
+
+.text_content h2 {
+    padding-top: 20px;
+}
+
+.text_content p {
+    padding: 30px;
+}
+
+#features {
+    height: 200px;
+}
+
+.box {
+    float: left;
+    /*    padding: 10px;*/
+    width: 33.33%;
+    height: 100%;
+    text-align: center;
+    overflow: hidden;
+}
+
+.box .icon {
+    padding-top: 20px;
+    font-size: 40px;
+}
+
+.box h3 {
+    padding: 20px;
+}
+
+.bgcolor {
+    background-color: orange;
+    /*    width: 100%;*/
+}
+
+/*
+.clr {
+    clear: both;
+}
+*/
+
+footer {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.pad {
+    padding: 20px;
+}
